@@ -349,6 +349,11 @@ body {
   flex-direction: column;
   color: #fff;
 }
+.error {
+  color: red;
+  z-index: 999;
+}
+
 label,
 input,
 textarea {
@@ -365,6 +370,9 @@ textarea {
   resize: none;
   height: 300px;
   color: #fff;
+}
+#nameErr {
+  border: 1px solid red !important;
 }
 .send {
   font-size: 25px;
